@@ -20,8 +20,10 @@ jobs:
       # 如果你代码本⾝就处于根⽬录则不需要再⼿动进⼊了
       run: |
         npm install
-        gitbook install
-        gitbook build
+        npm install -D graceful-fs@2
+        npm run build -- install
+        npm run build -- build
+        npm run test
     # 发布
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
