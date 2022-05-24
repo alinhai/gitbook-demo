@@ -1,0 +1,22 @@
+{
+  "name": "gitbook-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinhai/gitbook-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinhai/gitbook-demo/issues"
+  },
+  "homepage": "https://github.com/alinhai/gitbook-demo#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
