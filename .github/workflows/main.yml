@@ -19,8 +19,7 @@ jobs:
       # 由于⽰例项⽬代码并⾮在根⽬录,所以要这⾥⼿动进⼊了项⽬⽬录
       # 如果你代码本⾝就处于根⽬录则不需要再⼿动进⼊了
       run: |
-        npm install
-        gitbook install
+        npm install -g gitbook-cli
         gitbook build
     # 发布
     - name: Deploy
