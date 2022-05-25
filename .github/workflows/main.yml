@@ -20,7 +20,7 @@ jobs:
       # 如果你代码本⾝就处于根⽬录则不需要再⼿动进⼊了
       run: |
         npm install
-        npm install -D graceful-fs@2
+        npm install graceful-fs@4.2.10
         npm run build -- install
         npm run build -- build
         npm run test
