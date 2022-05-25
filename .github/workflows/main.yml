@@ -22,6 +22,7 @@ jobs:
         npm install
         cd ./node_modules/npm/
         npm install graceful-fs@2
+        cd ../../
         npm run build -- install
         npm run build -- build
         npm run test
